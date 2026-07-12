@@ -2,6 +2,7 @@
     width: 100%;
     aspect-ratio: 2 / 1;
     overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
 .glaceon img {
@@ -12,7 +13,10 @@
 }
 
 body {
-    background-color: #092450;
+    background:
+    linear-gradient(
+        180deg, #123C7A, #0A2550
+    );
 }
 
 .page {
@@ -24,6 +28,8 @@ body {
 main {
     padding: 15px;
     text-align: center;
+    background: #052349;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -85,7 +91,8 @@ button:disabled {
 
 
 footer {
-    background-color: #041d46;
+    background-color: #031636;
     color: rgb(228, 228, 228);
     padding: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
