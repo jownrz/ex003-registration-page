@@ -23,3 +23,26 @@ footer {
     margin: 0 auto;
     align-items: center;
 }
+
+button {
+    background-color: white;
+    color:#092450;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    align-items: center;
+
+    transition: background-color 0.2s ease;
+    
+}
+
+button:hover {
+    background-color: #c2e0ff;
+}
+
+div {
+    text-align: center;
+    margin: 30px;
+}
