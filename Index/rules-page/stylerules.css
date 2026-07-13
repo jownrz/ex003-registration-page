@@ -1,20 +1,33 @@
-body {
+main {
     background-color: #092450;
     color: rgb(228, 228, 228);
     padding: 10px;
     max-width: 720px;
+    background: linear-gradient(180deg, #052349, #020f25);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
+
+body {
+    background: linear-gradient(180deg, #123C7A, #0A2550);
+}
+
 
 h1 {
     color: rgb(228, 228, 228);
-    font-family: sans-serif
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.notice {
+    padding: 5px;
+    text-align: center;
 }
 
 footer {
-    background-color: #154085;
+    background-color: #020f25;
     color: rgb(228, 228, 228);
     padding: 15px;
-    margin-top: 50px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
 .page {

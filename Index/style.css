@@ -29,6 +29,11 @@ main {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
+.notice {
+    padding: 50px;
+    text-align: center;
+}
+
 h1 {
     color: white;
     font-family: Helvetica, sans-serif;
