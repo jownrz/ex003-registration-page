@@ -18,3 +18,11 @@ button.addEventListener("click", click)
         button.style.background = "#fde36c"
         button.style.fontWeight = "bold"
     }
+
+/*const textbox = document.querySelector(".inputbox")
+    const textinput = textbox.value
+
+    
+    if (textinput == "") {
+        alert("Ops! You forgot something!")
+    } */

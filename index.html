@@ -20,21 +20,49 @@
 
         <h1>Register your <em>Cool</em> team!</h1>
 
-        <h4>Name:</h4>
-        <input type="text" class="inputbox" placeholder="Ex: James...">
-
-        <h4>Email:</h4>
-        <input type="text" class="inputbox" placeholder="Ex: meowth@rteam.com...">
-
-        <h4>Phone:</h4>
-        <input type="text" class="inputbox" placeholder="Ex: (00) 00000-0000">
-
-        <h4>Age:</h4>
-        <input type="text" class="inputbox" placeholder="You must be 10 years+">
-
-        <h4>Your favorite Pokémon:</h4>
-        <input type="text" class="inputbox" placeholder="Not Ditto, please">
+        <label for="name">Name:</label>
         <br>
+        <input 
+            id="name" 
+            type="text" 
+            required 
+            class="inputbox" 
+            placeholder="Ex: James...">
+            <br>
+
+        <label for="email">Email:</label><br>
+        <input 
+            id="email" 
+            type="email" 
+            required 
+            class="inputbox" 
+            placeholder="Ex: meowth@rteam.com...">
+            <br>
+
+        <label for="phone">Phone:</label><br>
+        <input 
+            id="phone" 
+            type="text" 
+            required 
+            class="inputbox" 
+            placeholder="Ex: (00) 00000-0000">
+            <br>
+
+        <label for="age">Age:</label><br>
+        <input 
+            id="age"
+            type="text" 
+            class="inputbox" 
+            placeholder="You must be 10 years+">
+            <br>
+
+        <label for="favorite">Your favorite Pokémon:</label><br>
+        <input 
+            id="favorite"
+            type="text" 
+            class="inputbox" 
+            placeholder="Not Ditto, please">
+            <br>
 
         <section class="checkbox" id="checkbox">
 
@@ -47,7 +75,6 @@
             <a class="ruleslink" href="rules-page/tournament-rules.html">Tournament rules.</a></p>
             
         </section>    
-
         <br>
 
         <button id="button" class="button" disabled>

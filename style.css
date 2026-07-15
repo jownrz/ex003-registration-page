@@ -48,6 +48,14 @@ h4 {
     margin-bottom: 6px;
 }
 
+label {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
 .normaltext {
     color: white;
 }
@@ -74,6 +82,7 @@ h4 {
     border-radius: 2px;
     padding: 4px;
     margin-top: 1px;
+    margin-bottom: 20px;
 }
 
 .checkbox {
